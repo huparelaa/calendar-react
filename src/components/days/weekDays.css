@@ -1,0 +1,25 @@
+.weekdays{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #743232;
+    color: white;
+}
+
+.days{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.today{
+    background-color: #bd3d3d;
+    color: #fff;
+}
